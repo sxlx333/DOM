@@ -1,13 +1,13 @@
 const teamSectionDOM = document.getElementById("team"); // pasirenka id team kur bus pakeistas tekslas su innerhtml
 const teamMembers = [`Jonas`, `Marytė`, `Petras`, `Ona`, `Arvydas`, `Aldona`, `Zosa`, `Juozapas`, `Martynas`, `Aloyzas`, `Anastasija`, `Antanas`]; // sukonstruojamas masyvas su vardais
 
-let membersHTML = '';  // tuscias masyvas kuriame bus iterpiami vardai
+let membersHTML = '';  // tuscias string kuriame bus iterpiami vardai
 for (const name of teamMembers) { // kiekviena varda masyve esanciam pasirenka 
-    membersHTML += `<li class="member">${name}</li>`; // for of ciklas kuriame pridedamos reiksmes i tuscia masyva su li elementu 
+    membersHTML += `<li class="member">${name}</li>`; // for of ciklas kuriame pridedamos reiksmes i tuscia string su li elementu 
 }
 
 
-teamSectionDOM.innerHTML = `<ul>${membersHTML}</ul>`; // isvedami is ciklo li elementai su vardais i neeiliuota sarasiuka taskais zymyma
+teamSectionDOM.innerHTML = `<ul>${membersHTML}</ul>`; // isvedami is ciklo li elementai su vardais i neeiliuota sarasa taskais zymyma
 
 
 
@@ -23,22 +23,3 @@ for (const memberDOM of membersListDOM) {
 }
 
 
-/* ND
-failas: header.js
-- jis iskvieciamas kiekviename puslapyje
-- jame yra funkcija header()
-- ji sugeneruoja normalu headeri
-- nuorodas galima su cikliuku padaryti kaip anksciau team.js virsuj su vardais
-<header>
-    <img>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
-
-
-istatome i HTML ir isitikiname, jog galima naviguoti po projekto puslapius
-*/
