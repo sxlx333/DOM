@@ -1,0 +1,20 @@
+.calc1,
+.calc {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.calc > div,
+.calc1 > div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+.left-side, 
+.right-side{
+    display:flex;
+    gap: 1rem;
+}

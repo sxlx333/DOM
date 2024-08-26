@@ -1,5 +1,9 @@
 import { capitalize } from "./capitalize.js";
-console.log('LOG MAIN FILE...');
+
+import { header } from "./header.js";
+
+header('');
+
 
 const homeDOM = document.getElementById('home');
 console.log(homeDOM);

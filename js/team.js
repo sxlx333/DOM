@@ -1,3 +1,5 @@
+import { header } from "./header.js";
+header('team');
 const teamSectionDOM = document.getElementById("team"); // pasirenka id team kur bus pakeistas tekslas su innerhtml
 const teamMembers = [`Jonas`, `Marytė`, `Petras`, `Ona`, `Arvydas`, `Aldona`, `Zosa`, `Juozapas`, `Martynas`, `Aloyzas`, `Anastasija`, `Antanas`]; // sukonstruojamas masyvas su vardais
 
