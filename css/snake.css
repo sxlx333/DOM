@@ -28,6 +28,8 @@
     font-size: 1.2rem;
 }
 label {
+    visibility: hidden;
+    height:0;
     color: #777;
     text-align: center;
 }
@@ -47,7 +49,7 @@ input {
     margin-top: 2rem;
     position: relative;
     background-color: antiquewhite;
-    height: calc(100vh - 400px);
+    height: calc(100vh - 430px);
     width: 100%;
   }
   .world > .row {
