@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyvatėlė - pirmadienio versija</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/snake.css">
+</head>
+
+<body>
+    <main>
+        <form class="form">
+            <p class="form-title">Gyvatėlės pasaulio dydis</p>
+            <div class="form-content">
+                <div class="form-element">
+                    <label for="">Plotis</label>
+                    <input type="number">
+                    <p class="note">max:: 10</p>
+                </div>
+        <div class="form-element">x</div>
+        <div class="form-element">
+            <label for="">Aukštis</label>
+            <input type="number">
+            <p class="note">max: 15</p>
+        </div>
+        <div class="form-element">
+            <button type="submit">Perpiešti</button>
+        </div>
+    </div>
+    </form>
+    <div id="world" class="world">
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <img class="heart" style="top: 96px; left: 96px;" src="../images/heath.png" alt="heart">
+        <img class="snake" style="top: 0px; left: 0px;" src="../images/snake-sqr.png" alt="Snake">
+    </div>
+</main>
+
+    <footer id="main_footer">
+        <p>Cipyrights &copy; 2024</p>
+    </footer>
+
+    <script type="module" src="../js/kirminas.js"></script>
+</body>
+
+</html>

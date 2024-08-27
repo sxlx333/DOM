@@ -1,0 +1,74 @@
+.form {
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+.form > .form-title {
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.form > .form-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-element {
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.form-element button {
+    width: 6rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+label {
+    color: #777;
+    text-align: center;
+}
+input {
+    width: 6rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.note {
+    color:#999;
+    font-style: italic;
+    text-align: center;
+}
+.world {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    position: relative;
+    background-color: antiquewhite;
+    height: calc(100vh - 400px);
+    width: 100%;
+  }
+  .world > .row {
+    display: flex;
+  }
+  .world > .row > .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ccc;
+  }
+  .world .snake,
+  .world .heart {
+    width: 48px;
+    height: 48px;
+    padding: 4px;
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
